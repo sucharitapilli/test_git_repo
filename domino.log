@@ -1,0 +1,18 @@
+2022-12-06 09:55:26,790 UTC  INFO HttpService - HttpService maxConnections: 30 maxConnectionsPerRoute: 10 connectTimeoutSec: 60 readTimeoutSec: 120
+2022-12-06 09:55:27,056 UTC  INFO d.c.Domino - ================================================================================
+2022-12-06 09:55:27,056 UTC  INFO d.c.Domino - Starting client. BuildID=5.3.0-2695db47a8b85c8809f812f67535349831c13c88
+2022-12-06 09:55:27,057 UTC DEBUG d.c.Domino - CWD = /mnt/code
+2022-12-06 09:55:27,058 UTC  INFO d.c.Domino - executing command: login https://novo-sce.domino-eval.com
+2022-12-06 09:55:27,303 UTC DEBUG d.c.c.LoginCommand - logging in to host: https://novo-sce.domino-eval.com
+2022-12-06 09:55:27,308 UTC DEBUG d.c.p.ClientControllerProxy - Getting site config from https://novo-sce.domino-eval.com/cliSiteConfig
+2022-12-06 09:55:27,315 UTC DEBUG d.c.p.ApiKeyBasedTransport - Issuing request to https://novo-sce.domino-eval.com/cliSiteConfig (full request = [Request redacted])
+2022-12-06 09:55:27,575 UTC  INFO d.c.c.LoginCommand - Received site config:
+SiteConfig(https://novo-sce.domino-eval.com,S3,None,Some(https://novo-sce.domino-eval.com/assets/cli/default),authorization_key,Some(OAuthConfig(https://novo-sce.domino-eval.com/auth/realms/DominoRealm/protocol/openid-connect/token,https://novo-sce.domino-eval.com,https://novo-sce.domino-eval.com/authorizeCliCode)),None)
+2022-12-06 09:55:27,576 UTC DEBUG d.c.u.AutoUpdaterSettings$ - Setting CLI update source to: https://novo-sce.domino-eval.com/assets/cli/default/versions/updates.xml
+2022-12-06 09:55:44,931 UTC DEBUG d.c.p.ClientControllerProxy - Getting user info from https://novo-sce.domino-eval.com/cliUserInfo
+2022-12-06 09:55:44,955 UTC DEBUG d.c.p.ClientControllerProxy - Getting site config from https://novo-sce.domino-eval.com/cliSiteConfig
+2022-12-06 09:55:44,956 UTC DEBUG d.c.p.ApiKeyBasedTransport - Issuing request to https://novo-sce.domino-eval.com/cliSiteConfig (full request = [Request redacted])
+2022-12-06 09:55:44,982 UTC DEBUG d.c.u.AutoUpdaterSettings$ - Setting CLI update source to: https://novo-sce.domino-eval.com/assets/cli/default/versions/updates.xml
+2022-12-06 09:55:45,008 UTC DEBUG d.c.p.ClientControllerProxy - Getting user info from https://novo-sce.domino-eval.com/cliUserInfo
+2022-12-06 09:55:45,041 UTC  INFO d.c.Domino - Verifying that the cloud update URL isn't being used.
+2022-12-06 09:55:45,044 UTC  INFO d.c.Domino - Cloud update URL not in use.
