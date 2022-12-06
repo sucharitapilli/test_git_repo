@@ -1,6 +1,8 @@
 libname kass "/mnt/imported/data/novo-kassandra/tmp_sdtm";
 
-libname base_data "/mnt/data/xx";
+libname basedata "/mnt/data/xx";
+
+/* Uploading the data to the project */
 
 data base_data.scrn_fail;
 set kass.dm;
